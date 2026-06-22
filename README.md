@@ -12,7 +12,7 @@ This project provides Split IP blocklists for outbound traffic, updated every 1 
 
 **Data Source**
 
-1. ipblocklist : https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/inbound.txt
+1. ipblocklist : https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/outbound.txt
 2. borestad/blocklist-abuseipdb : https://github.com/borestad/blocklist-abuseipdb
 3. borestad/firehol-mirror : https://github.com/borestad/firehol-mirror
 4. stamparm/ipsum : https://github.com/stamparm/ipsum
