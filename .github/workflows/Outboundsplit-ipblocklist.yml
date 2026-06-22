@@ -1,4 +1,4 @@
-name: Split and Commit File
+name: Outbound Split and Commit File
 
 on:
   push:
