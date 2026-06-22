@@ -1,6 +1,8 @@
-**IP Blocklist**
+**IP Outbound Blocklist**
 
-This project provides Split IP blocklists for outbound traffic, updated every 1 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked. 
+This project provides split IP blocklists for outbound traffic, updated hourly, with built-in exclusions for major public DNS resolvers to ensure uninterrupted access to essential services.
+
+The architecture addresses the 131,072-entry limit imposed on FortiGate firewall external connectors. By segmenting the blocklists into smaller, manageable files, this project ensures that all data can be successfully imported without exceeding the device's capacity threshold.
 
 
 **Acknowledgements**
