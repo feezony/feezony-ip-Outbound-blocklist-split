@@ -5,7 +5,7 @@ on:
     branches:
       - main
   schedule:
-    - cron: '0 * * * *' # ทำงานทุกวันตอนเที่ยงคืน (ตามเวลา UTC)
+    - cron: '0 * * * *' # (ทุกชั่วโมง) (ตามเวลา UTC)
     workflow_dispatch:  # เพิ่มส่วนนี้เพื่อให้ปุ่ม "Run workflow" ปรากฏขึ้น
 
 permissions:
