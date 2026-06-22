@@ -1,6 +1,6 @@
 **IP Blocklist**
 
-This project provides Split IP blocklists for inbound traffic, updated every 1 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked. 
+This project provides Split IP blocklists for outbound traffic, updated every 1 hours. It includes exclusions for major public DNS resolvers to prevent legitimate services from being blocked. 
 
 
 **Acknowledgements**
