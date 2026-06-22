@@ -19,8 +19,7 @@ jobs:
 
       - name: Download file
         run: |
-          curl -o outbound.txt https://raw.githubusercontent.com/bitwire-it/ipblocklist/main/outbound.txt
-
+          curl -o outbound.txt https://raw.githubusercontent.com/bitwire-it/ipblocklist/refs/heads/main/outbound.txt
       - name: Split and commit
         run: |
           mkdir -p output
